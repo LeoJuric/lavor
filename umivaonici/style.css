@@ -1,0 +1,534 @@
+@font-face {
+    src: url(../umivaonici/font/Poppins-Regular.ttf);
+    font-family: Poppins;
+}
+
+* {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+.container {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+}
+
+    header a {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+    }
+
+.prevoditelj {
+    display: flex;
+    font-size: 18px;
+}
+
+    #h6 {
+        margin-right: 10px;
+    }
+
+    #razmak {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .prevoditelj a {
+        font-size: 12px;
+    }
+
+        .prevoditelj a:hover {
+            font-size: 15px;
+            transition: 0.2s;
+        }
+
+#gore {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 20px 0px;
+}
+
+    #headerimg1 {
+        display: none;
+    }
+
+    #gore li {
+        border: 1px solid darkslategray;
+        padding: 10px;
+    }
+
+        #gore li:hover {
+            padding: 15px;
+            color: dodgerblue;
+            transition: 0.5s;
+            border: 1px solid dodgerblue;
+        }
+
+#goreshow {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 20px 0px;
+}
+
+    #goreshow img {
+        width: 35%;
+    }
+
+    #goreshow li {
+        border-bottom: 3px solid rgb(59, 57, 57);
+        padding: 10px;
+        margin-top: 60px;
+    }
+
+        #goreshow li:hover {
+            padding: 15px;
+            color: dodgerblue;
+            transition: 0.5s;
+            border: 1px solid dodgerblue;
+        }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    background-color: white;
+}
+
+.logoji {
+    padding: 20px;
+    border-bottom: 3px solid #272727;
+    border-top: 3px solid #272727;
+    background-color: white;
+}
+
+    .logoji:hover {
+        border-bottom: 3px solid dodgerblue;
+        border-top: 3px solid dodgerblue;
+        transition: 0.5s;
+        padding: 25px;
+    }
+
+#vertical {
+    border-right: 5px solid darkslategray;
+    margin: 0px 30px 0px 30px;
+}
+
+#prvi {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../umivaonici/images/prvi.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 20%;
+}
+
+#btn1 {
+    display: flex;
+    margin: auto;
+    border: 1px solid white;
+    background-color: #272727;
+    color: white;
+    width: 125px;
+    margin-top: 30px;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+}
+
+    #btn1:hover {
+        width: 135px;
+        padding: 27px 0px 27px 0px;
+        border: 1px solid dodgerblue;
+        color: dodgerblue;
+        transition: 0.3s;
+    }
+
+.article11 {
+    background-color: rgba(0,0,0,0.1);
+    padding: 25px;
+    text-align: justify;
+    margin-top: 20%;
+    color: white;
+    font-weight: bolder;
+}
+
+    .article11 p, .article11 h1 {
+        margin-bottom: 20px;
+    }
+
+.naslov {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.article12 {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 25px;
+    text-align: justify;
+    color: white;
+}
+
+    .article12 li {
+        padding: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    #li2 {
+        margin-left: 20%;
+    }
+
+    #li3 {
+        margin-left: 40%;
+    }
+
+    #li4 {
+        margin-left: 60%;
+    }
+
+    #li5 {
+        margin-left: 80%;
+    }
+
+#drugiimg {
+    padding: 20px 0px 20px 0px;
+    background-color: white;
+}
+
+#drugi img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#treci {
+    background-color: #272727;
+}
+
+#slike {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 25px 0px 20px;
+}
+
+.slikadiv {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#slike img {
+    padding: 10px;
+    width: 30%;
+    height: 300px;
+    object-fit: contain;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#btn {
+    width: 20%;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    color: white;
+    border: 1px solid white;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+    #btn:hover {
+        width: 22%;
+        padding: 22px 5px 22px 5px;
+        border: 1px solid dodgerblue;
+        color: dodgerblue;
+        transition: 0.3s;
+    }
+
+#slike a {
+    color: white;
+    text-decoration: none;
+}
+
+    #btn a:hover {
+        color: dodgerblue;
+    }
+
+
+#savkontakt {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 80px 0px 50px 0px;
+    background-color: lightgray;
+}
+
+.savokontaktdiv {
+    width: 33%;
+}
+
+#radnovrijeme {
+    margin-top: 2%;
+    color: black;
+}
+
+#logobot img {
+    object-fit: cover;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+}
+
+    #socials1, #socials2 {
+        font-size: 20px;
+        color: white;
+        background-color: #272727;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #social h1 {
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    #social i {
+        margin: auto;
+    }
+
+    #social1 {
+        background-color: #00f2ea;
+        padding: 10px;
+        font-size: 70px;
+    }
+
+        #social1:hover {
+            padding: 11px 15px 11px 15px;
+            transition: 0.3s;
+        }
+
+    #social2 {
+        background-color: #E1306C;
+        padding: 10px;
+        font-size: 70px;
+    }
+
+        #social2:hover {
+            padding: 11px 15px 11px 15px;
+            transition: 0.3s;
+        }
+
+    #socials3 a {
+        color: black;
+    }
+
+#whitelogo {
+    padding: 20px;
+    width: 200%;
+}
+
+
+
+
+
+
+/* tu je hamburger */
+
+#naslovpodstranice {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid #007D5C;
+}
+
+#povratak {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #007D5C;
+    border: 1px solid #272727;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+    #povratak:hover {
+        background-color: dodgerblue;
+        color: white;
+        font-size: large;
+        font-size: 30px;
+        transition: 0.5s;
+    }
+
+.hamburger {
+    display: none;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+    width: 60px;
+    margin: auto;
+}
+
+.bar {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: black;
+}
+
+#button {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+
+
+/* manji display */
+
+@media (max-width: 760px) {
+    .prevoditelj {
+        margin-left: 20px;
+    }
+
+    #h6 {
+        display: none;
+    }
+
+    #gore {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        #gore li {
+            width: 80%;
+            margin: auto;
+        }
+
+        #headerimg1 {
+            display: block;
+            width: 65%;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+        #gore h1 {
+            display: none;
+        }
+    
+#goreshow {
+    display: none;
+}
+
+.hamburger {
+    display: block;
+}
+
+#li2 {
+    margin-left: 10%;
+}
+            
+#li3 {
+    margin-left: 20%;
+}
+
+#li4 {
+    margin-left: 30%;
+}
+
+#li5 {
+    margin-left: 40%;
+}
+
+
+    #savkontakt {
+        display: flex;
+        flex-direction: column;
+        background-color: #161616;
+    }
+
+    .savokontaktdiv {
+        width: 100%;
+    }
+
+    #whitelogo {
+        margin-top: 10px;
+    }
+}
+
+
+/* galerija lighbox */
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: none;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slikegalerija {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 25px 0px 20px;
+}
+
+.slikadiv {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#slikegalerija img {
+    padding: 10px;
+    width: 30%;
+    height: 300px;
+    object-fit: contain;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#slikegalerija img {
+    cursor: pointer;
+}
+
+#lightbox img {
+    max-width: 50%;
+    border: 1px solid white;
+}
