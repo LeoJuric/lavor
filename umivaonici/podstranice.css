@@ -1,0 +1,274 @@
+@font-face {
+    src: url(../umivaonici/font/Poppins-Regular.ttf);
+    font-family: Poppins;
+}
+
+* {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+#podstranicalogo {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+    #podstranicalogo img {
+        width: 30%;
+    }
+
+/*footer*/
+#savkontakt {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 80px 0px 50px 0px;
+    background: linear-gradient(#272727 5%, white 90%);
+}
+
+.savokontaktdiv {
+    width: 33%;
+}
+
+#radnovrijeme {
+    margin-top: 2%;
+    color: black;
+}
+
+#logobot img {
+    object-fit: cover;
+    width: 100%;
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+}
+
+#socials2 {
+    padding-bottom: 10px;
+}
+
+    #socials1, #socials2 {
+        font-size: 20px;
+        color: black;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #social i {
+        margin: auto;
+    }
+
+    #social1 {
+        background-color: #00f2ea;
+        padding: 10px;
+        font-size: 70px;
+    }
+
+        #social1:hover {
+            padding: 11px 15px 11px 15px;
+            transition: 0.3s;
+        }
+
+    #social2 {
+        background-color: #E1306C;
+        padding: 10px;
+        font-size: 70px;
+    }
+
+        #social2:hover {
+            padding: 11px 15px 11px 15px;
+            transition: 0.3s;
+        }
+
+    #socials3 a {
+        color: black;
+    }
+
+    .bxxx {
+        color: #FED766;
+        padding: 10px;
+        font-size: 35px;
+    }
+
+#whitelogo {
+    padding: 20px;
+    width: 200%;
+}
+
+
+
+
+
+
+
+/* galerija */
+
+#treci {
+    background-color: #272727;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#headerpodstranice {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(darkslategray, #2f2f2f);
+}
+
+#naslovpodstranice {
+    text-align: center;
+    padding: 20px 220px 20px 0px;
+    color: white;
+    margin: auto;
+}
+
+#povratak {
+    border: 3px solid #FED766;
+    color: #FED766;
+    padding: 10px 20px 10px 20px;
+}
+
+    #a {
+        padding: 10px 0px 0px 10px;
+    }
+
+    #povratak:hover {
+        background-color: #272727;
+        font-size: large;
+        font-size: 30px;
+        transition: 0.5s;
+    }
+
+/* galerija lighbox */
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: none;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slikegalerija {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 25px 0px 20px;
+}
+
+.slikadiv {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#slikegalerija img {
+    padding: 10px;
+    width: 30%;
+    height: 300px;
+    object-fit: contain;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#slikegalerija img {
+    cursor: pointer;
+}
+
+#lightbox img {
+    max-width: 60%;
+    border: 1px solid white;
+}
+
+
+@media(max-width: 760px) {
+    #lightbox img {
+        min-width: 95%;
+        border: 1px solid white;
+    }
+}
+
+
+
+
+/* info */
+
+#savinfo {
+    background-color: #272727;
+}
+
+#savinfo h1 {
+    margin: auto;
+    padding: 20px 20px 0px 0px;
+    text-align: center;
+    color: white;
+}
+
+#savinfo p {
+    color: white;
+    text-align: center;
+    padding: 20px 150px;
+}
+
+#savinfo li {
+    color: white;
+    text-align: center;
+    padding: 0px 150px;
+}
+
+#socials1 h4 {
+    padding-top: 10px;
+}
+
+#socials2 h4 {
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 760px) {
+    #savinfo p, li {
+        padding: 20px 50px;
+    }
+
+    #savkontakt {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(#272727, white);
+    }
+
+    .savokontaktdiv {
+        width: 100%;
+    }
+
+    #whitelogo {
+        margin-top: 10px;
+    }
+
+    #social {
+        margin: auto;
+    }
+}

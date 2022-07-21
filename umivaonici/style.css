@@ -40,6 +40,10 @@ header {
         margin-right: 10px;
     }
 
+    #h6mail {
+        padding-right: 5px;
+    }
+
     #razmak {
         margin-left: 3px;
         margin-right: 3px;
@@ -71,9 +75,10 @@ header {
 
         #gore li:hover {
             padding: 15px;
-            color: dodgerblue;
-            transition: 0.5s;
-            border: 1px solid dodgerblue;
+            color: #FED766;
+            transition: 0.3s;
+            border: 1px solid #FED766;
+            background-color: lightslategray;
         }
 
 #goreshow {
@@ -94,9 +99,10 @@ header {
 
         #goreshow li:hover {
             padding: 15px;
-            color: dodgerblue;
-            transition: 0.5s;
-            border: 1px solid dodgerblue;
+            color: #FED766;
+            transition: 0.3s;
+            border: 1px solid #FED766;
+            background-color: lightslategray;
         }
 
 .logo {
@@ -114,8 +120,8 @@ header {
 }
 
     .logoji:hover {
-        border-bottom: 3px solid dodgerblue;
-        border-top: 3px solid dodgerblue;
+        border-bottom: 3px solid #FED766;
+        border-top: 3px solid #FED766;
         transition: 0.5s;
         padding: 25px;
     }
@@ -149,8 +155,8 @@ header {
     #btn1:hover {
         width: 135px;
         padding: 27px 0px 27px 0px;
-        border: 1px solid dodgerblue;
-        color: dodgerblue;
+        border: 1px solid #FED766;
+        color: #FED766;
         transition: 0.3s;
     }
 
@@ -253,8 +259,8 @@ header {
     #btn:hover {
         width: 22%;
         padding: 22px 5px 22px 5px;
-        border: 1px solid dodgerblue;
-        color: dodgerblue;
+        border: 1px solid #FED766;
+        color: #FED766;
         transition: 0.3s;
     }
 
@@ -264,7 +270,7 @@ header {
 }
 
     #btn a:hover {
-        color: dodgerblue;
+        color: #FED766;
     }
 
 
@@ -273,7 +279,7 @@ header {
     justify-content: space-evenly;
     text-align: center;
     padding: 80px 0px 50px 0px;
-    background-color: lightgray;
+    background: linear-gradient(#272727 5%, white 90%);
 }
 
 .savokontaktdiv {
@@ -288,7 +294,6 @@ header {
 #logobot img {
     object-fit: cover;
     width: 100%;
-    border: 1px solid gray;
 }
 
 #social {
@@ -296,18 +301,16 @@ header {
     flex-direction: column;
 }
 
+#socials2 {
+    padding-bottom: 10px;
+}
+
     #socials1, #socials2 {
         font-size: 20px;
-        color: white;
-        background-color: #272727;
-        width: 80%;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-
-    #social h1 {
-        margin-bottom: 10px;
         color: black;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
     }
 
     #social i {
@@ -340,6 +343,16 @@ header {
         color: black;
     }
 
+    .bxxx {
+        color: #FED766;
+        padding: 10px;
+        font-size: 35px;
+    }
+
+    #socials1 h4 {
+        padding-top: 10px;
+    }
+
 #whitelogo {
     padding: 20px;
     width: 200%;
@@ -347,34 +360,7 @@ header {
 
 
 
-
-
-
 /* tu je hamburger */
-
-#naslovpodstranice {
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-    border-bottom: 1px solid #007D5C;
-}
-
-#povratak {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #007D5C;
-    border: 1px solid #272727;
-    color: white;
-    padding: 10px 20px 10px 20px;
-}
-
-    #povratak:hover {
-        background-color: dodgerblue;
-        color: white;
-        font-size: large;
-        font-size: 30px;
-        transition: 0.5s;
-    }
 
 .hamburger {
     display: none;
@@ -473,7 +459,7 @@ header {
     #savkontakt {
         display: flex;
         flex-direction: column;
-        background-color: #161616;
+        background: linear-gradient(#272727, white);
     }
 
     .savokontaktdiv {
@@ -483,10 +469,37 @@ header {
     #whitelogo {
         margin-top: 10px;
     }
+
+#social {
+    margin: auto;
+}
+
 }
 
 
-/* galerija lighbox */
+
+/* lighbox */
+
+#emailbtn {
+    width: auto;
+    padding: 15px 30px 15px 30px;
+    height: auto;
+    margin: auto;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    background:none;
+    border: 3px solid #FED766;
+    border-radius: 5%;
+}
+
+#emailbtn:hover {
+    padding: 17px 32px 17px 32px;
+    background-color: #FED766;
+    font-size: larger;
+    transition: 0.3s;
+}
 
 #lightbox {
     position: fixed;
@@ -494,7 +507,7 @@ header {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.85); 
     display: none;
 }
 
@@ -504,31 +517,103 @@ header {
     align-items: center;
 }
 
-#slikegalerija {
+#upit {
+    width: 1000px;
+    height: auto;
+    background-color: #1F2833;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 25px 0px 25px;
+    border: 2px solid #FED766;
+    color: white;
+}
+
+#upit h1 {
+    padding-bottom: 30px;
+}
+
+#ime, #prezime, #email, #telefon {
+    width: 300px;
+    text-align: center;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 500px;
+    color: black;
+    resize: none;
+    padding: 5px;
+}
+
+#submit {
+    margin-top: 20px;
+    color: black;
+    font-weight: bolder;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+}
+
+#submit:hover {
+    padding: 5px 15px 5px 15px;
+    background-color: #FED766;
+    font-size: larger;
+    transition: 0.3s;
+}
+
+input {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#zaglavlje {
     display: flex;
-    flex-direction: column;
-    margin: 5px 25px 0px 20px;
+    flex-direction: row;
 }
 
-.slikadiv {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
+    #zaglavlje h1 {
+        width: 95%;
+        padding-left: 50px;
+    }
 
-#slikegalerija img {
-    padding: 10px;
-    width: 30%;
-    height: 300px;
-    object-fit: contain;
-    background-color: rgba(0, 0, 0, 0.3);
-}
+    #zaglavlje #button2 {
+        width: 5%;
+    }
 
-#slikegalerija img {
+#hamburger2 {
+    display: block;
+    padding: 10px 0px 10px 0px;
     cursor: pointer;
+    width: 60px;
+    margin: auto;
+
 }
 
-#lightbox img {
-    max-width: 50%;
-    border: 1px solid white;
+.bar2 {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: white;
+}
+
+.bar2:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.bar2:nth-child(2) {
+    opacity: 0;
+}
+
+.bar2:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+#button1:hover > #bar21 { 
+    background: #FED766;
+    width: 101%;
 }

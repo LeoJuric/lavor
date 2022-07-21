@@ -2,6 +2,7 @@ const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('#gore');
 
 gore.style.display = "none";
+
 hamburger.addEventListener("click", (event)=>{
     if (nav.style.display == "none") {
         nav.style.display = "block"
@@ -34,4 +35,32 @@ sr.reveal('#radnovrijeme')
 sr.reveal('#logobot', {delay: 400})
 sr.reveal('#social', {delay: 600})
 
+
+const lightbox = document.createElement('div')
+lightbox.id = 'lightbox'
+document.body.appendChild(lightbox)
+
+
+const emailbtn = document.querySelector('#emailbtn')
+emailbtn.addEventListener('click', e => {
+    lightbox.classList.add('active')
+    const upit = document.querySelector('#upit')
+    upit.style.display = 'block'
+    upit.src = upit.src
+    while (lightbox.firstChild) {
+        lightbox.removeChild(lightbox.firstChild)
+    }
+    lightbox.appendChild(upit)
+})
+
+
+lightbox.addEventListener('click', e => {
+    if (e.target !== e.currentTarget) return
+    lightbox.classList.remove('active')
+})
+
+const gumb2 = document.getElementById("button1")
+gumb2.addEventListener('click', e => {
+    lightbox.classList.remove('active')
+})
 

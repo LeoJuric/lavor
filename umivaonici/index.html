@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+        <meta name="description" content="Keramički umivaonici">
+        <meta name="keywords" content="Keramika, Umivaonici,">
         <meta name="author" content="Tin Tišljarić">
         <title>Lavor</title>
         <link rel="stylesheet" href="style.css">
@@ -16,7 +16,7 @@
             
             <div class="prevoditelj container">
                 <h6 id="h6">+385 98 1818 518</h6>
-                <h6 id="h6">leo.jurich@gmail.com</h6>
+                <h6 id="h6mail">leo.jurich@gmail.com</h6>
                 <h6><a href="index.html">HR</a></h6>
                 <h6 id="razmak">/</h6>
                 <h6><a href="indexeng.html">EN</a></h6>
@@ -39,7 +39,7 @@
                     <a href="#usluge"><li>USLUGE</li></a>
                     <img src="../umivaonici/images/logo.png">
                     <a href="#galerija"><li>GALERIJA</li></a>
-                    <a href="#savkontakt"><li>KONTAKT</li></a>
+                    <a href="../umivaonici/kontakt.html"><li>KONTAKT</li></a>
                 </ul>
             </div>
 
@@ -129,14 +129,13 @@
                     <img id="whitelogo" src="../umivaonici/images/logo.png">
                 </div>
                 <div class="savokontaktdiv" id="social">
-                    <h1>Kontakt</h1>
                     <div id="socials1">
-                        <i class='bx bx-phone'></i>
+                        <i class='bx bx-phone bxxx'></i>
                         <h4>+385 98 181 8518</h4>
                     </div>
                     <div id="socials2">
-                        <i class='bx bx-envelope'></i>
-                        <h4>leo.jurich@gmail.com</h4>
+                        <i class='bx bx-envelope bxxx'></i>
+                        <button id="emailbtn">Pošalji upit</button>
                     </div>
                     <div id="socials3">
                         <a href=""><i id="social1" class='bx bxl-tiktok'></i></a>
@@ -146,6 +145,49 @@
             </div>
         </footer>
 
+        <div id="upit">
+            <div id="zaglavlje">
+                <h1>Pošaljite nam upit e-mailom!</h1>
+                <div id="button1">
+                    <div id="hamburger2">
+                        <span class="bar2" id="bar21"></span>
+                        <span class="bar2"></span>
+                        <span class="bar2" id="bar23"></span>
+                    </div>
+                </div>
+            </div>
+            <form id="form" onsubmit="sendEmail(); reset(); return false;">
+                <h3>Vaše ime:</h3>
+                <input type="text" id="ime" required>
+                <h3>Vaše prezime:</h3>
+                <input type="text" id="prezime" required>
+                <h3>Vaš mail:</h3>
+                <input type="email" id="email" required>
+                <h3>Vaše broj telefona:</h3>
+                <input type="number" id="telefon" maxlength="11">
+                <h3>Upit:</h3>
+                <textarea id="poruka" rows="8" maxlength="550"></textarea>
+                <br>
+                <button type="submit" id="submit">Pošalji</button>
+            </form>
+        </div>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail() {
+                Email.send({
+                SecureToken : "1fbbd927-702c-4e7d-90cb-f416c1d8eb16",
+                To : 'nevenjurickc@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "Upit sa web stranice",
+                Body : "Ime: " + document.getElementById("ime").value 
+                + "<br> Email: " + document.getElementById("email").value
+                + "<br> Telefon: " + document.getElementById("telefon").value
+                + "<br> Upit: " + document.getElementById("poruka").value
+            }).then(
+            message => alert("Upit uspješno poslan!")
+            )};
+        </script>
         <script src="scrollreveal.min.js"></script>
         <script src="main.js"></script>
     </body>
