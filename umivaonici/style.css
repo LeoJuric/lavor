@@ -174,7 +174,7 @@ header {
     }
 
 .naslov {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #131111;
     text-align: center;
     color: white;
     padding: 20px;
@@ -182,7 +182,7 @@ header {
 }
 
 .article12 {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #131111;
     padding: 25px;
     text-align: justify;
     color: white;
@@ -207,11 +207,10 @@ header {
 
     #li5 {
         margin-left: 80%;
-    }
+    }  
 
 #drugiimg {
-    padding: 20px 0px 20px 0px;
-    background-color: white;
+    background-color: #131111;
 }
 
 #drugi img {
