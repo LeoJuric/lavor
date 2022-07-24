@@ -25,7 +25,7 @@ const sr = ScrollReveal({
 sr.reveal('#prvi')
 sr.reveal('.article11', {origin: 'left', delay: 500})
 sr.reveal('#usluge')
-sr.reveal('#drugiimg', {delay: 400})
+sr.reveal('#animacija')
 sr.reveal('.article12')
 sr.reveal('#galerija')
 sr.reveal('#slike1')
@@ -34,6 +34,7 @@ sr.reveal('#slike3')
 sr.reveal('#radnovrijeme')
 sr.reveal('#logobot', {delay: 400})
 sr.reveal('#social', {delay: 600})
+sr.reveal('#drugiimg', {delay: 100})
 
 
 const lightbox = document.createElement('div')
@@ -64,3 +65,14 @@ gumb2.addEventListener('click', e => {
     lightbox.classList.remove('active')
 })
 
+$('#animacijabtn').click(function() {
+    document.getElementById('dash').beginElement();
+})
+
+$('#animacijabtn').click(function() {
+    document.getElementById('dash1').beginElement();
+})
+
+$('#animacijabtn').click(function() {
+    document.getElementById('dash2').beginElement();
+})
