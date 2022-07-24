@@ -209,6 +209,28 @@ header {
         margin-left: 80%;
     }  
 
+#animacija {
+    display: flex;
+    justify-content: center;
+    background-color: #131111;
+}
+
+    #animacijabtn {
+        font-size: 25px;
+        background: none;
+        border: 2px solid #FED766;
+        cursor: pointer;
+        padding: 10px;
+        color: #FED766;
+    }
+
+        #animacijabtn:hover {
+            padding: 10px 15px;
+            color: black;
+            background-color: #FED766;
+            transition: 0.3s;
+        }
+
 #drugiimg {
     background-color: #131111;
 }
