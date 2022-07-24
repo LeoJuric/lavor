@@ -92,10 +92,6 @@ header {
     margin: 20px 0px 20px 0px;
 }
 
-    #goreshow img {
-        width: 100%;
-    }
-
     #goreshow li {
         border-bottom: 3px solid rgb(59, 57, 57);
         padding: 10px;
@@ -503,13 +499,24 @@ header {
 
 #social {
     margin: auto;
-    margin-top: -120px;
 }
-    
-#clm {
+
+#clm svg {
+    padding-left: 15%;
+    padding-right: 5%;
+    width: 90%;
+}
+
+#logobot svg {
     padding-left: 5%;
     padding-right: 5%;
+    width: 90%;
 }
+
+    #logobot img {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 
 }
 
