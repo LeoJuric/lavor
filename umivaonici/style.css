@@ -64,10 +64,6 @@ header {
     margin: 20px 0px 20px 0px;
 }
 
-    #headerimg1 {
-        display: none;
-    }
-
     #gore li {
         border: 1px solid darkslategray;
         padding: 10px;
@@ -81,6 +77,15 @@ header {
             background-color: lightslategray;
         }
 
+#completlogo {
+    display: flex;
+    flex-direction: column;
+}
+
+#clm {
+    display: none;
+}
+
 #goreshow {
     display: flex;
     justify-content: space-evenly;
@@ -88,7 +93,7 @@ header {
 }
 
     #goreshow img {
-        width: 35%;
+        width: 100%;
     }
 
     #goreshow li {
@@ -421,7 +426,14 @@ header {
 
 /* manji display */
 
-@media (max-width: 760px) {
+@media (max-width: 934px) {
+    #clm {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 10px;
+    }
+
     .prevoditelj {
         margin-left: 20px;
     }
@@ -439,13 +451,6 @@ header {
         #gore li {
             width: 80%;
             margin: auto;
-        }
-
-        #headerimg1 {
-            display: block;
-            width: 65%;
-            margin: auto;
-            margin-bottom: 10px;
         }
 
         #gore h1 {
@@ -638,3 +643,37 @@ input {
     background: #FED766;
     width: 101%;
 }
+
+
+/* Google chrome */
+@-webkit-keyframes svg-text-anim {
+    40% {
+       stroke-dashoffset: 0;
+       fill: transparent;
+     }
+     60% {
+       stroke-dashoffset: 0;
+       fill: #ffd700;
+     }
+     100% {
+       stroke-dashoffset: 0;
+       fill: #ffd700;
+     }
+     
+ }
+ /* Most browsers */
+ @keyframes svg-text-anim {
+    40% {
+       stroke-dashoffset: 0;
+       fill: transparent;
+     }
+     60% {
+       stroke-dashoffset: 0;
+       fill: #ffd700;
+     }
+     100% {
+       stroke-dashoffset: 0;
+       fill: #ffd700;
+     }
+     
+ }
