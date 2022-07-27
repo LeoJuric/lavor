@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{fill:#002082;}
+	.st3{fill:#CED8F7;stroke:white;}
+	.st33{fill:#3057E1;stroke:white;}
+	.st4{fill:#3057E1;stroke:white;}
+	.st5{fill:#CED8F7;stroke:white;}
+	.st6{fill:#4A6DE5;stroke:white;stroke-miterlimit:10;}
+	.stkrug{fill:#CED8F7;}
+	.st7{fill:#CED8F7;stroke:white;}
+	.st8{fill:#3057E1;stroke:white;}
+	.st9{fill:#3057E1;stroke:white;}
+	.st10{fill:#2645B3;stroke:white;}
+	.st11{fill:#E2DED0;}
+	.st12{fill:#2645B3;stroke:white;}
+	.st13{fill:#3057E1;stroke:white;}
+	.st14{fill:none;stroke:#CED8F7;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#CED8F7;stroke-miterlimit:10;stroke-dasharray:12.0745,12.0745;}
+	.st16{fill:none;stroke:#CED8F7;stroke-miterlimit:10;stroke-dasharray:12.0307,12.0307;}
+	.st17{fill:none;stroke:#CED8F7;stroke-miterlimit:10;stroke-dasharray:11.9917,11.9917;}
+	.st18{fill:none;stroke:#CED8F7;stroke-miterlimit:10;stroke-dasharray:12.103,12.103;}
+	.st19{fill:none;stroke:#CED8F7;stroke-miterlimit:10;}
+	.st20{fill:none;stroke:#CED8F7;stroke-miterlimit:10;stroke-dasharray:11.9317,11.9317;}
+</style>
+
+<g id="Layer_9">
+	<rect x="-0.53" class="st1" width="1366.53" height="768"/>
+</g>
+<g id="Layer_7">
+	<path class="st3" d="M690.47,251.19L690.47,251.19c-3.2,0.6-6.29-1.51-6.89-4.72l-6.96-37.18c-0.6-3.2,1.51-6.29,4.72-6.89l0,0
+		c3.2-0.6,6.29,1.51,6.89,4.72l6.96,37.18C695.79,247.51,693.68,250.59,690.47,251.19z"/>
+</g>
+<g id="Layer_6">
+	<ellipse class="st4" cx="654.06" cy="193.89" rx="13.91" ry="17.04"/>
+	<ellipse class="st5" cx="657.32" cy="194.17" rx="13.91" ry="17.04"/>
+	<path class="st4" d="M678.29,210.05l-12.86-0.29c-7.87-0.18-14.1-6.7-13.93-14.56l0.03-1.37c0.18-7.87,6.7-14.1,14.56-13.93
+		l12.86,0.29c7.87,0.18,14.1,6.7,13.93,14.56l-0.03,1.37C692.68,204,686.16,210.23,678.29,210.05z"/>
+	<ellipse class="st5" cx="681.64" cy="195.3" rx="11.87" ry="14.62"/>
+</g>
+<g id="Layer_5">
+	<ellipse class="st33" cx="608.33" cy="196.85" rx="17.14" ry="18.81"/>
+	<ellipse class="stkrug" cx="611.21" cy="197.32" rx="17.14" ry="18.81"/>
+	<path class="st4" d="M623.13,209.36h-6.98c-6.37,0-11.53-5.16-11.53-11.53v0c0-6.37,5.16-11.53,11.53-11.53h6.98
+		c6.37,0,11.53,5.16,11.53,11.53v0C634.66,204.2,629.5,209.36,623.13,209.36z"/>
+	<ellipse class="st7" cx="626.49" cy="197.83" rx="9.83" ry="11.53"/>
+	<path class="st8" d="M625.34,190.38l73.15,3.96c0,0,15.06,2.17,22.85,16.34c7.79,14.17,12.26,30.26,12.26,30.26
+		s-4.72,7.28-17.23,3.83c0,0-3.19-26.04-18.77-33.19l-72.26-5.23C625.34,206.34,615.38,198.43,625.34,190.38z"/>
+</g>
+<g id="gornji">
+	<g>
+		<animateTransform attributeType="XML" attributeName="transform" type="translate"
+			from="0, 0" to="0, 200" dur="1.5s" fill="freeze"/>
+		<path class="st9" d="M498.06,169.62c92.26-27.57,184.51-55.15,276.77-82.72c-1.53,16-3.06,32-4.6,48l-278.3,102.13L498.06,169.62z
+			"/>
+		<path class="st10" d="M931.85,112.68c-52.9-8.67-105.81-17.34-158.71-26.01c-0.97,16.07-1.94,32.15-2.9,48.22l147.83,22.21
+			C922.66,142.3,927.26,127.49,931.85,112.68z"/>
+		<path class="st6" d="M770.23,134.89c53.87-6.8,107.74-13.6,161.62-20.4c-79.15,38.55-158.3,77.09-237.45,115.64
+			c-34.72-9.78-69.43-19.56-104.15-29.34C650.25,178.82,710.24,156.86,770.23,134.89z"/>
+		<path class="st11" d="M847.6,48.02L392.83,167.51l313.62,106.38l354.09-200.34L847.6,48.02z M694.4,230.66l-194.55-59.74
+			L773.04,88.7l158.81,24.51L694.4,230.66z"/>
+	</g>
+</g>
+<g id="donji">
+	<g id="lijevi">
+		<animateTransform attributeType="XML" attributeName="transform" type="translate"
+			from="0, 0" to="300, 0" dur="1.5s" fill="freeze"/>
+		<polygon class="st12" points="92.83,367.32 103.47,503.66 406.45,653.79 406.45,473.7 "/>
+	</g>
+	<polygon id="desni" class="st13" points="1260.53,273.36 906.45,473.7 906.45,653.79 1253.38,359.15 ">
+	<animateTransform attributeType="XML" attributeName="transform" type="translate"
+			from="0, 0" to="-200, 0" dur="1.5s" fill="freeze"/>
+	</polygon>
+</g>
+<g id="Layer_8">
+	<g>
+		<g>
+			<line class="st14" x1="-548.11" y1="32.62" x2="-542.73" y2="35.28"/>
+			<line class="st15" x1="-531.91" y1="40.64" x2="955.72" y2="777.77"/>
+			<line class="st14" x1="961.13" y1="780.45" x2="966.51" y2="783.12"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st14" x1="343.73" y1="961.83" x2="348.3" y2="957.94"/>
+			<line class="st16" x1="357.47" y1="950.16" x2="1379.93" y2="81.83"/>
+			<line class="st14" x1="1384.52" y1="77.93" x2="1389.09" y2="74.05"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st14" x1="-120.39" y1="501.83" x2="-114.58" y2="500.3"/>
+			<line class="st17" x1="-102.98" y1="497.25" x2="1398.97" y2="102.62"/>
+			<line class="st14" x1="1404.76" y1="101.09" x2="1410.57" y2="99.57"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st14" x1="362.28" y1="-24.24" x2="362.74" y2="-18.26"/>
+			<line class="st18" x1="363.69" y1="-6.2" x2="436.65" y2="928.95"/>
+			<line class="st14" x1="437.12" y1="934.98" x2="437.59" y2="940.96"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line class="st19" x1="-593.81" y1="75.19" x2="-587.85" y2="75.91"/>
+			<line class="st20" x1="-576" y1="77.33" x2="1479.41" y2="323.78"/>
+			<line class="st19" x1="1485.34" y1="324.49" x2="1491.29" y2="325.2"/>
+		</g>
+	</g>
+</g>
+</svg>
