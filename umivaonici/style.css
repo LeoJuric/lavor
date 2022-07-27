@@ -82,6 +82,10 @@ header {
     flex-direction: column;
 }
 
+    #completlogo svg {
+        padding-left: 10px;
+    }
+
 #clm {
     display: none;
 }
@@ -103,7 +107,7 @@ header {
             color: #FED766;
             transition: 0.3s;
             border: 1px solid #FED766;
-            background-color: lightslategray;
+            background-color: #131111;
         }
 
 .logo {
@@ -317,7 +321,7 @@ header {
 #logobot img {
     object-fit: cover;
     width: 100%;
-    padding-left: 50px;
+    padding-left: 40px;
     padding-top: 30px;
 }
 
@@ -429,7 +433,7 @@ header {
 
 /* manji display */
 
-@media (max-width: 934px) {
+@media (max-width: 1000px) {
     #clm {
         display: flex;
         flex-direction: column;
