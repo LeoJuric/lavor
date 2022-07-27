@@ -214,6 +214,7 @@ header {
     display: flex;
     justify-content: center;
     background-color: #131111;
+    padding-bottom: 10px;
 }
 
     #animacijabtn {
@@ -316,6 +317,8 @@ header {
 #logobot img {
     object-fit: cover;
     width: 100%;
+    padding-left: 50px;
+    padding-top: 30px;
 }
 
 #social {
@@ -434,6 +437,10 @@ header {
         padding-top: 10px;
     }
 
+        #clm svg {
+            margin-left: 25px;
+        }
+
     .prevoditelj {
         margin-left: 20px;
     }
@@ -502,21 +509,15 @@ header {
 }
 
 #clm svg {
-    padding-left: 15%;
-    padding-right: 5%;
-    width: 90%;
-}
-
-#logobot svg {
     padding-left: 5%;
     padding-right: 5%;
     width: 90%;
 }
 
-    #logobot img {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+#logobot {
+    width: 90%;
+    margin: auto;
+}
 
 }
 
@@ -671,11 +672,11 @@ input {
      }
      60% {
        stroke-dashoffset: 0;
-       fill: #ffd700;
+       fill: #ecc63c;
      }
      100% {
        stroke-dashoffset: 0;
-       fill: #ffd700;
+       fill: #ecc63c;
      }
      
  }
@@ -687,11 +688,37 @@ input {
      }
      60% {
        stroke-dashoffset: 0;
-       fill: #ffd700;
+       fill: #ecc63c;
      }
      100% {
        stroke-dashoffset: 0;
-       fill: #ffd700;
+       fill: #ecc63c;
      }
      
+ }
+
+
+::-webkit-scrollbar-track
+ {
+     --webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     background-color: #F5F5F5;
+ }
+ 
+::-webkit-scrollbar
+ {
+     width: 10px;
+     background-color: #F5F5F5;
+ }
+ 
+::-webkit-scrollbar-thumb
+ {
+     background-color: #F90;	
+     background-image: -webkit-linear-gradient(45deg,
+                                               rgba(255, 255, 255, .2) 25%,
+                                               transparent 25%,
+                                               transparent 50%,
+                                               rgba(255, 255, 255, .2) 50%,
+                                               rgba(255, 255, 255, .2) 75%,
+                                               transparent 75%,
+                                               transparent)
  }
