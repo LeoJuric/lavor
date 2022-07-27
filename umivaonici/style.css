@@ -504,10 +504,6 @@ header {
         padding-bottom: 50px;
     }
 
-    #whitelogo {
-        margin-top: 10px;
-    }
-
 #social {
     margin: auto;
 }
@@ -521,6 +517,7 @@ header {
 #logobot {
     width: 90%;
     margin: auto;
+    padding-right: 20px;
 }
 
 }
