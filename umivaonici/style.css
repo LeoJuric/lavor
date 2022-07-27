@@ -241,10 +241,11 @@ header {
     background-color: #131111;
 }
 
-#drugi img {
+#drugiimg svg {
     width: 80%;
     display: block;
     margin: auto;
+    border: 1px solid #ecc63c;
 }
 
 #treci {
@@ -433,7 +434,7 @@ header {
 
 /* manji display */
 
-@media (max-width: 1000px) {
+@media (max-width: 934px) {
     #clm {
         display: flex;
         flex-direction: column;
@@ -502,6 +503,10 @@ header {
     .savokontaktdiv {
         width: 100%;
         padding-bottom: 50px;
+    }
+
+    #whitelogo {
+        margin-top: 10px;
     }
 
 #social {
