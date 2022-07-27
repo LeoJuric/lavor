@@ -65,15 +65,15 @@ gumb2.addEventListener('click', e => {
     lightbox.classList.remove('active')
 })
 
-$('#animacijabtn').click(function() {
+$('#drugiimg').click(function() {
     document.getElementById('dash').beginElement();
 })
 
-$('#animacijabtn').click(function() {
+$('#drugiimg').click(function() {
     document.getElementById('dash1').beginElement();
 })
 
-$('#animacijabtn').click(function() {
+$('#drugiimg').click(function() {
     document.getElementById('dash2').beginElement();
 })
 
@@ -91,4 +91,4 @@ function setTextAnimation(delay, duration, strokeWidth, timingFunction, strokeCo
         path.style["animation-delay"] = `${i * delay}s`;
     }
 }
-setTextAnimation(0.1,1.7,1,'linear','#131111',false);
+setTextAnimation(0.1,1.7,1,'linear','#8b7323',false);
